@@ -67,4 +67,4 @@ Frameworks, Libraries and Languages are used in project:-
    VI) REFRESH_TOKEN=................</br> 9. Now we will run command in one terminal in client directory</br>
    “npm start”</br>
 9. Finally we will create another terminal and run command in server</br>
-   directory “nodemon app.js"</br>
+   directory “nodemon app.js" </br>
