@@ -1,0 +1,185 @@
+nav {
+  /* @import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@700&display=swap');
+  font-family: 'Piazzolla', serif; */
+  /* background-color: white; */
+  /* #b9ffb7 */
+  /* #deffdd */
+  -webkit-box-shadow: 0px 1px 7px 1px rgba(145, 138, 145, 1);
+  -moz-box-shadow: 0px 1px 7px 1px rgba(145, 138, 145, 1);
+  box-shadow: 0px 1px 7px 1px rgba(145, 138, 145, 1);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.navbar-brand {
+  color: #100835;
+}
+
+.signup-box {
+  margin-top: 1rem;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 5px 3px rgb(218, 226, 218);
+  -moz-box-shadow: 0px 0px 5px 3px rgb(218, 226, 218);
+  box-shadow: 0px 0px 5px 3px rgb(218, 226, 218);
+}
+
+.error-box {
+  margin-top: 12rem;
+  position: relative;
+}
+
+.error404 {
+  font-size: 10rem;
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
+  top: -50%;
+  right: 30%;
+}
+
+/* .footer {} */
+
+@media (max-width: 767.98px) {
+  .signup-box {
+    margin-top: 1rem;
+  }
+  .error-box {
+    margin-top: 6rem;
+  }
+  .error404 {
+    top: -30%;
+    right: 30%;
+  }
+}
+
+/* //////////////////////// */
+
+.Home-page {}
+
+.Home-page .all-mail {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Home-page .all-mails-header {
+  position: relative;
+  padding: 0px 0px 20px 0px;
+}
+
+.Home-page .send-mail-btn {
+  border: 1px solid rgb(139, 71, 71);
+  background-color: white;
+  border-radius: 10px;
+  padding: 3px 10px;
+  position: absolute;
+  right: 0px;
+  outline: none;
+}
+
+.Home-page .send-mail-btn:hover {
+  background-color: rgb(252, 249, 249);
+  cursor: pointer;
+}
+
+.Home-page .send-mail-btn .plus {
+  font-weight: bold;
+  color: green;
+}
+
+.Home-page .allMail {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  height: 496px;
+  overflow: auto;
+}
+
+.Home-page .mail {
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 10px 0px 10px;
+}
+
+.Home-page .mail:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgb(252, 249, 249);
+}
+
+.Home-page .mail .mail-sender {
+  font-weight: 500;
+  color: black;
+}
+
+.Home-page .mail .time {
+  float: right;
+  opacity: 0.7;
+  color: black;
+}
+
+.Home-page .mail .mail-subject {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
+}
+
+.Home-page .mail .mail-body {
+  width: 100%;
+  opacity: 0.8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
+}
+
+/* login-page */
+
+/* .google-icon {
+  border: 1px solid black;
+  padding: 5px 0px;
+}
+
+.google-icon img {
+  height: 15px;
+}
+
+.google-icon span {
+  font-weight: 500;
+}
+
+.google-icon:hover {
+  cursor: pointer;
+} */
+
+/* end */
+
+/* Mail-Page */
+
+.one-mail {
+  border-top: 1px solid lightgrey;
+  padding: 10px;
+}
+
+.one-mail-sender {
+  font-weight: 500;
+}
+
+.one-mail-time {
+  float: right;
+  opacity: 0.8;
+}
+
+.one-mail-sender-mail {
+  opacity: 0.8;
+}
+
+.one-mail-subject {
+  font-weight: 500;
+}
+
+.one-mail-body {}
+
+/* end */
